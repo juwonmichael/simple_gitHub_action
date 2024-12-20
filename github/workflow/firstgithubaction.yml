@@ -1,9 +1,0 @@
-name: run shell commands
-on: [push]
-
-jobs:
-  run-shell-command:
-    runs-on: ubuntu-latest
-    steps:
-      - name: display this string
-        run: echo "this is my first pipeline"
