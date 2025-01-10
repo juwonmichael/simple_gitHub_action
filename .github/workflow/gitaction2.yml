@@ -3,11 +3,10 @@ on: [push]
   
 jobs:
   run-shell-command:
-    runs-on: ubuntutu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: echo string
-      run : echo "please print this pipeline " 
-
+      run: echo "please print this pipeline"
 
 
 
